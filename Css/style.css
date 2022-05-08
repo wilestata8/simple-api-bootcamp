@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+	background-image: linear-gradient( 180deg,  rgba(247,247,247,1) 2%, rgba(231,142,73,0.97) 82% );
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	margin: 0;
+}
+
+.results {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  border: 2px solid  rgba(233, 121, 21, 0.86);;
+  border-radius: 11%;
+}
+#dog_result{
+  border-radius: 18%;
+}
+.result {
+	background-color: rgba(233, 121, 21, 0.86);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	height: 500px;
+	width: 600px;
+}
+
+.result img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+.content{
+  
+}
+.title{
+  font-size: 4em;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 500;
+}
+.desc{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+	background-color: rgba(233, 121, 21, 0.86);
+	border: 0;
+	border-radius: 4px;
+	color: black;
+	font-size: 18px;
+	padding: 10px;
+	margin: 10px;
+	width: 300px;
+}
+
+button:active {
+	transform: scale(0.98);
+}
+
+button:focus {
+	outline: none
+}
